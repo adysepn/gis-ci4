@@ -1,0 +1,19 @@
+CRITICAL - 2023-11-29 01:03:05 --> Invalid file: "lokasi/v_input_lokasi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('lokasi/v_input_lokasi.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('lokasi/v_input_lokasi', [], true)
+ 3 APPPATH\Views\v_template.php(88): view('lokasi/v_input_lokasi')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\gis-ci4\\app\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Lokasi.php(21): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Lokasi->inputLokasi()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\gis-ci4\\public\\index.php')
+INFO - 2023-11-29 01:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-29 01:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
